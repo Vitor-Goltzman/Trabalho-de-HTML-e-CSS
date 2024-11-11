@@ -1,0 +1,199 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Xique Xique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1> Loja Xique Xique</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="carrinho">
+            <a href="#">Carrinho (0)</a>
+        </div>
+    </header>
+
+
+    <!-- carrossel-->
+    <div class="slideshow-container">
+
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="https://www.designi.com.br/images/preview/10046780.jpg" style="width:100%">
+         
+        </div>
+       
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="https://www.designi.com.br/images/preview/10049844.jpg" style="width:100%">
+       
+        </div>
+       
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="https://www.designi.com.br/images/preview/10703757.jpg" style="width:100%">
+         
+        </div>
+       
+        </div>
+        <br>
+       
+        <div style="text-align:center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+
+    <!-- Seção de Filtros e Produtos -->
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Filtros</h2>
+            <h3>Categorias</h3>
+            <ul>
+                <li><a href="#">Eletrônicos</a></li>
+                <li><a href="#">Roupas</a></li>
+                <li><a href="#">Casa & Decoração</a></li>
+                <li><a href="#">Beleza</a></li>
+            </ul>
+
+
+            <h3>Preço</h3>
+            <input type="range" min="0" max="1000" step="10" value="500" id="preco">
+            <p>Preço até: <span id="valor-preco">500</span> R$</p>
+
+
+            <h3>Marca</h3>
+            <select id="marca">
+                <option value="samsung">Samsung</option>
+                <option value="apple">Apple</option>
+                <option value="lg">LG</option>
+                <option value="sony">Sony</option>
+            </select>
+        </aside>
+
+
+        <main class="produtos">
+            <h2>Produtos em Destaque</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <a href="https://www.kabum.com.br/produto/102770/headset-gamer-havit-drivers-53mm-microfone-plugavel-p2-pc-ps4-xbox-one-preto-hv-h2002d">
+                    <img src="https://images0.kabum.com.br/produtos/fotos/102770/headset-gamer-havit-drivers-53mm-hv-h2002d_headset-gamer-havit-drivers-53mm-hv-h2002d_1564056874_g.jpg" alt="Produto 1">
+                </a>
+                    <h3>Headset Gamer</h3>
+                    <p>R$ 154,99</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://www.gruposhopmix.com/relogio-inteligente-q9-pressao-pulso-2-pulseiras-memoria-64k">
+                    <img src="https://cdn.awsli.com.br/300x300/1080/1080773/produto/242546637/3-qmc1hbxb67.jpg" alt="Produto 2">
+                </a>
+                    <h3>Relógio Inteligente</h3>
+                    <p>R$ 129,90</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://www.google.com/shopping/product/6093013278491181310?client=opera-gx&hs=h8O&sca_esv=2c272caab9e83ec0&sxsrf=ADLYWII_K1R6dU85b498aux6uvuI9ZI_3A:1731293488411&q=fone+de+ouvido+bluetooth&fbs=AEQNm0AuaLfhdrtx2b9ODfK0pnmi2aC_xrXWMCzvpYJNclNNRCOG4t8WPeBQqnJC-vvwlgOo7k5OE_Mn9egEkOrddQqDlsifiZAbLa_6h-nfMnUJRph9RxxLIsx8fDwqkzw-Jy4-mM1XtZm2VITG490Oy2-ZqezoYH0d4wBKiBj2hlXdAc7rH1hb6MZ3kiPSeiIbZvH9C4kDKzDqxaRqjer0lz3XKvIIzQ&ictx=111&prds=eto:324324508590647973_0,pid:10300132373374295363,rsk:CID_6093013278491181310&sa=X&ved=0ahUKEwjClJnuotOJAxW3LrkGHV6wFlEQ8wII_Aw">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTdrYwbOiv_rUlX-WMPr4wRLAvTekDojenYq4NfYsYfv9qdmtFTBZz7aMkXQoemwynBZn9ljKnicxMJ8uNMGtsSfT7WAnt1-kcD5BWgEq7m1UP2RqB2o8m8&usqp=CAE" alt="Produto 3">
+                </a>
+                    <h3>Fone De Ouvido A6s Pro</h3>
+                    <p>R$ 62,40</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://empresas.americanas.com.br/produto/1508549854/fone-de-ouvido-bluetooth-i12-tws-touch-color">
+                    <img src="https://images-americanas.b2w.io/produtos/1508549854/imagens/fone-de-ouvido-bluetooth-i12-tws-touch-color/1508549854_1_large.jpg" alt="Produto 4">
+                </a>
+                    <h3>Fone De Ouvido Bluetooth</h3>
+                    <p>R$ 100,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+            </div>
+
+
+            <h2>Novidades</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <a href="https://m.magazineluiza.com.br/echo-dot-geracao-alexia-controle-por-voz-e-movimento-entrega-rapida-barato-zonne/p/gk9gj870de/ci/sscs/">
+                    <img src="https://a-static.mlcdn.com.br/450x450/echo-dot-geracao-alexia-controle-por-voz-e-movimento-entrega-rapida-barato-zonne/zonnestore/echo-dot-227/8a14029adc2460d1efe9230903ec26a0.jpeg" alt="Produto 5">
+                </a>
+                    <h3>Echo Dot</h3>
+                    <p>R$ 754,81</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://www.philco.com.br/smart-tv-philco-86-ptv86p50agsg-4k-sb-led-android-netflix/p">
+                    <img src="https://philco.vtexassets.com/arquivos/ids/179424-1200-1200?v=637345875116330000&width=1200&height=1200&aspect=true" alt="Produto 6">
+                </a>
+                    <h3>TV Philco</h3>
+                    <p>R$ 6.235,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwj7557aodOJAxWSVUgAHV40Es8YABAJGgJjZQ&co=1&gclid=Cj0KCQiA0MG5BhD1ARIsAEcZtwQE9FF0_y9O3uiDz4yqfqspGgrZfcdxRZ6_H46igsgoxuwcTf6NoNMaAv9uEALw_wcB&sig=AOD64_2eymh_cV225DCI3egD1QwpHFONBg&ctype=5&q=&ved=2ahUKEwjuq5vaodOJAxWSr5UCHar7CZMQ9aACKAB6BAgBECo&adurl=">
+                    <img src="https://images.tcdn.com.br/img/img_prod/15959/teclado_mecanico_gamer_redragon_dark_avenger_k568_rgb_switch_red_abnt2_k568rgb_16645_1_20200818215705.jpg" alt="Produto 7">
+                </a>
+                    <h3>Teclado Redragon</h3>
+                    <p>R$ 268,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </div>
+                <div class="produto">
+                    <a href="https://www.kabum.com.br/produto/174016/mouse-gamer-hyperx-pulsefire-surge-rgb-16000-dpi-hx-mc002b">
+                    <img src="https://static.meupc.net/produto/mouse-hyperx-pulsefire-surge-rgb-hxmc002b-oisk72-L.jpg" alt="Produto 8">
+                    <h3>Mouse HyperX</h3>
+                    <p>R$ 208,00</p>
+                    <button>Adicionar ao Carrinho</button>
+                </a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Projeto Uninove. Site e-commerce eletrônicos.</p>
+    </footer>
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+       
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+        </script>
+
+
+</body>
+</html>
